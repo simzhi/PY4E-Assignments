@@ -1,1 +1,24 @@
 
+  
+1.
+CREATE TABLE xyz(
+name VARCHAR(128),
+email VARCHAR(128)
+)
+
+2.
+INSERT INTO xyz(name,email) VALUES ('simzhi','simzhi@gmail.com')
+
+3.
+DELETE FROM xyz WHERE email='simzhi@gmail.com'
+
+4.
+UPDATE xyz SET name='abc' WHERE email='simzhi@gmail.com'
+
+5.
+SELECT*FROM xyz
+SELECT*FROM xyz WHERE email='simzhi"gmail.com'
+
+6.
+SELECT*FROM xyz ORDER BY email
+SELECT*FROM xyz ORDER BY name
